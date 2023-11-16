@@ -6,7 +6,7 @@
 
 body {
     max-width: 1440px;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -31,7 +31,17 @@ a {
 
 /* Section Styling */
 section {
-    padding: 50px 0;
+    padding: 35px 0;
+}
+
+.section-flex {
+    display: flex;
+    padding: 35px 25px;
+    
+}
+
+aside {
+    margin-right: 50px;
 }
 
 .hero {
@@ -39,4 +49,20 @@ section {
     padding: 100px 0;
     background-color: rgb(14, 14, 24);
     color: white;
+}
+
+.project-container {
+    background-image: url("https://images.pexels.com/photos/10187242/pexels-photo-10187242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.project-text {
+    padding: 25px;
+    margin: 25px;
+    background-color: green;
+    width: 30%;
 }
