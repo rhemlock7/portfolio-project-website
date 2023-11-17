@@ -1,71 +1,78 @@
 /* General Styling */
 * {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+
+}
+
+p {
+    line-height: 1.5em;
+}
 
 /* Navigation Styling */
-header {
-    background-color: rgb(20, 20, 52);
-    color: white;
+header{
+    background-color: rgb(10, 10, 21);
 }
 
-nav, ul {
+nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     height: 75px;
-    
+    width: 90%;
+    max-width: 1440px;
 }
 
-li {
-    text-decoration: none;
-    list-style: none;
-    margin: 0 15px;
+.nav-div {
+    margin: 0;    
+    padding: 0;
 }
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    margin: 0 15px;
     color: white;
 }
 
-/* Section Styling */
-section {
-    padding: 35px 0;
-    width: 90%;
+/* Reusable elements */
+.subtitle-card {
+    background-color: aquamarine;
+    padding: 20px;
+    width: 25em;
 }
 
-.section-flex {
-    display: flex;
-    padding: 35px 25px;
-    
-}
-
-aside {
-    margin-right: 50px;
-}
-
+/* Hero Section Styling */
 .hero {
-    text-align: center;
-    padding: 100px 0;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/18069161/pexels-photo-18069161/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-the-process-used-by-text-to-image-diffusion-models-it-was-created-by-linus-zoll-as-part-of-the-visualising-ai.png?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-position: center;
 }
 
-.project-container {
-    background-image: url("https://images.pexels.com/photos/10187242/pexels-photo-10187242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-    width: 500px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.hero-title-position {
+    position: relative;
+    left: 35%;
+    top: 70%;
 }
 
-.project-text {
-    padding: 25px;
-    margin: 25px;
-    background-color: green;
-    width: 30%;
-}
+/* About Me Section Styling */
+
+/* Portfolio Styling */
+
+/* Contact Syling */
