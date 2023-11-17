@@ -50,8 +50,29 @@ ul {
     color: white;
 }
 
-/* Section Styling */
-section {
-    padding: 35px 0;
-    max-width: 1440px;
+/* Reusable elements */
+.subtitle-card {
+    background-color: aquamarine;
+    padding: 20px;
+    width: 25em;
 }
+
+/* Hero Section Styling */
+.hero {
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/18069161/pexels-photo-18069161/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-the-process-used-by-text-to-image-diffusion-models-it-was-created-by-linus-zoll-as-part-of-the-visualising-ai.png?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title-position {
+    position: relative;
+    left: 35%;
+    top: 70%;
+}
+
+/* About Me Section Styling */
+
+/* Portfolio Styling */
+
+/* Contact Syling */
