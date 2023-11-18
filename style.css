@@ -147,12 +147,15 @@ nav {
 }
 
 /* Contact Syling */
-#contact-ul {
+.contact-ul {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;  
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    height: 100px;
 }
 .contact-link {
-    font-size: 1.5em;
+    font-size: 1.7em;
+    color: var(--dark);
 }
