@@ -28,6 +28,7 @@ p {
 
 section {
     padding: 75px 0;
+    overflow: hidden;
 }
 
 /* Navigation Styling */
@@ -93,10 +94,10 @@ ul {
 }
 
 /* About Me Section Styling */
-.section-flex {
+.section-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 90%;
@@ -109,10 +110,22 @@ aside {
     grid-area: 1 / 1 / 2 / 2;
 }
 
-.about-text {
+.content-container {
     grid-area: 1 / 2 / 5 / 6; 
 }
 
 /* Portfolio Styling */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    background-color: var(--dark);
+    color: white;
+    width: 400px;
+    height: 200px;
+    margin: 25px 10px;
+}
 
 /* Contact Syling */
