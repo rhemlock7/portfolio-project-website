@@ -54,9 +54,9 @@ nav {
     padding: 0;
 }
 
-ul {
+.nav-ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
 }
 
@@ -64,19 +64,42 @@ ul {
 .nav-link {
     text-decoration: none;
     margin: 0 15px;
-    color: white;
+    color: var(--light);
 }
 
 /* Reusable elements */
+
+/* Turquoise card on hero section and portfolio container */
 .subtitle-card {
     background-color: var(--accent);
     padding: 20px;
     width: 25em;
 }
 
+/* Line on each section */
 .border-line {
     border-left: 2px solid var(--dark);
     padding-left: 50px;
+}
+
+/* Body Section Styling */
+.section-row {
+    width: 90%;
+    max-width: 1440px;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 20%;
+    text-align: right;
+    padding: 0 50px;
+}
+
+.right {
+    width: 80%;
 }
 
 /* Hero Section Styling */
@@ -93,39 +116,43 @@ ul {
     top: 70%;
 }
 
-/* About Me Section Styling */
-.section-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 90%;
-}
-
-
-aside {
-    text-align: right;
-    padding: 0 50px;
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.content-container {
-    grid-area: 1 / 2 / 5 / 6; 
-}
-
 /* Portfolio Styling */
 .project-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
 }
+
+#project-1 { grid-area: 1 / 1 / 2 / 3; }
+#project-2 { grid-area: 2 / 1 / 4 / 2; }
+#project-3 { grid-area: 2 / 2 / 4 / 3; }
+#project-4 { grid-area: 3 / 1 / 5 / 2; }
+#project-5 { grid-area: 3 / 2 / 5 / 3; }
 
 .project-box {
     background-color: var(--dark);
-    color: white;
-    width: 400px;
-    height: 200px;
-    margin: 25px 10px;
+    border: 4px solid var(--accent);
+    color: var(--light);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.project-info {
+    width: 50%;
 }
 
 /* Contact Syling */
+#contact-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;  
+}
+.contact-link {
+    font-size: 1.5em;
+}
