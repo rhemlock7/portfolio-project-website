@@ -1,4 +1,11 @@
 /* General Styling */
+:root {
+    --dark: #32343D;
+    --light: white;
+    --accent: #91CCCE;
+    --font: #445877;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,20 +15,24 @@
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 2em;
 }
 
 h2 {
-
+    font-size: 2.5em;
 }
 
 p {
     line-height: 1.5em;
 }
 
+section {
+    padding: 75px 0;
+}
+
 /* Navigation Styling */
 header{
-    background-color: rgb(10, 10, 21);
+    background-color: var(--dark);
 }
 
 nav {
@@ -33,6 +44,10 @@ nav {
     max-width: 1440px;
 }
 
+.logo {
+    font-size: 1.3em;
+}
+
 .nav-div {
     margin: 0;    
     padding: 0;
@@ -41,6 +56,7 @@ nav {
 ul {
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 
@@ -52,9 +68,14 @@ ul {
 
 /* Reusable elements */
 .subtitle-card {
-    background-color: aquamarine;
+    background-color: var(--accent);
     padding: 20px;
     width: 25em;
+}
+
+.border-line {
+    border-left: 2px solid var(--dark);
+    padding-left: 50px;
 }
 
 /* Hero Section Styling */
@@ -72,6 +93,25 @@ ul {
 }
 
 /* About Me Section Styling */
+.section-flex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 90%;
+}
+
+
+aside {
+    text-align: right;
+    padding: 0 50px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.about-text {
+    grid-area: 1 / 2 / 5 / 6; 
+}
 
 /* Portfolio Styling */
 
