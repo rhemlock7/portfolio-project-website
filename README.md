@@ -15,8 +15,8 @@ Click the links in the navigation bar to be taken to a specific section of this 
 
 
 ## Screenshot Of Deployed Website
-![Deployed Portfolio Website](<Screen Shot 2023-11-20 at 7.59.18 AM.png>)
+![Deployed Portfolio Website](<./assets/Screen Shot 2023-11-20 at 7.59.18 AM.png>)
 
 
 ## Code Snippet For Portfolio Website
-![Code Snippet For Portfolio Website](<Screen Shot 2023-11-20 at 8.00.14 AM.png>)
+![Code Snippet For Portfolio Website](<./assets/Screen Shot 2023-11-20 at 8.00.14 AM.png>)
