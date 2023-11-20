@@ -16,6 +16,7 @@
 
 h1 {
     font-size: 2em;
+    color: var(--dark);
 }
 
 h2 {
@@ -29,6 +30,11 @@ p {
 section {
     padding: 75px 0;
     overflow: hidden;
+}
+
+footer {
+    padding: 50px 0;
+    margin-bottom: 150px;
 }
 
 /* Navigation Styling */
@@ -194,12 +200,13 @@ nav {
 /* Contact Syling */
 .contact-ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     list-style: none;
     padding: 0px;
     height: 100px;
 }
+
 .contact-link {
     font-size: 1.5em;
     color: var(--dark);
@@ -242,6 +249,25 @@ nav {
 
 /* Tablet Media Queries */
 @media screen and (max-width: 768px) {
+    /* Navigation Styling */
+    nav {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .nav-logo-container {
+        margin-top: 18px;
+    }
+    
+    .nav-ul {
+        display: none;
+    }
+
+    /* Hero Section Styling */
+    .hero-title-position {
+        left: 25%;
+    }
+
     /* Portfolio Styling */
     .project-container {
         grid-template-columns: repeat(1, 1fr);
@@ -272,4 +298,25 @@ nav {
         margin: 10px 0;
     }
 
+    /* Footer styling */
+    footer {
+        margin-bottom: 350px;
+    }
+
+    #contact-title {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .hero-title-position {
+        width: 200px;
+        left: -15%;
+        top: 250px;
+    }
 }
