@@ -144,6 +144,24 @@ nav {
     top: 175px;
 }
 
+/* About Section Styling */
+#about-flex {
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    padding: 0 15px;
+}
+
+.about-content h2 {
+    margin-bottom: 15px;
+}
+
+#ryan-img {
+    width: 100%;
+}
+
 /* Portfolio Styling */
 .project-container {
     display: grid;
@@ -291,6 +309,19 @@ nav {
     /* Hero Section Styling */
     .hero-title-position {
         left: 25%;
+    }
+
+    /* About Section Styling */
+    #about-flex {
+        flex-direction: column;
+    }
+
+    #ryan-img {
+        margin-bottom: 20px; 
+    }
+
+    .about-content {
+        padding: 0 0px;
     }
 
     /* Portfolio Styling */
