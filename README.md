@@ -13,6 +13,9 @@ This project was built with HTML5 and CSS3.
 ### How To Navigate This Site
 Click the links in the navigation bar to be taken to a specific section of this site.
 
+### Active Projects
+Click on the "Horiseon Refactoring" project to be taken to the actively deployed project site.
+
 
 ## Screenshot Of Deployed Website
 ![Deployed Portfolio Website](<./assets/Screen Shot 2023-11-20 at 7.59.18 AM.png>)
