@@ -18,8 +18,7 @@ Click on the "Horiseon Refactoring" project to be taken to the actively deployed
 
 
 ## Screenshot Of Deployed Website
-![Deployed Portfolio Website](<./assets/Screen Shot 2023-11-20 at 7.59.18 AM.png>)
-
+![Deployed Portfolio Website](<./assets/Screen Shot 2023-11-20 at 2.49.52 PM.png>)
 
 ## Code Snippet For Portfolio Website
 ![Code Snippet For Portfolio Website](<./assets/Screen Shot 2023-11-20 at 8.00.14 AM.png>)
