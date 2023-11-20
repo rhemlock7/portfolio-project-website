@@ -1,20 +1,22 @@
 # portfolio-project-website
 
 ## Deployed Website
-Link
+https://rhemlock7.github.io/portfolio-project-website/
+
 
 ## Description
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+This is a portfolio website designed for potential employers to review my work. If an employer views me as a good candidate for their job, they can reach out to me directly through my contact information located at the bottom of the page.
 
-Who this project is for.
-What tools it was built with.
-How this site can be navigated.
-Why this page was created
+This project was built with HTML5 and CSS3.
 
-## Screenshot Of Website
-Screenshot
 
-## Screenshot Of Code
-Screenshot
+### How To Navigate This Site
+Click the links in the navigation bar to be taken to a specific section of this site.
+
+
+## Screenshot Of Deployed Website
+![Deployed Portfolio Website](<Screen Shot 2023-11-20 at 7.59.18 AM.png>)
+
+
+## Code Snippet For Portfolio Website
+![Code Snippet For Portfolio Website](<Screen Shot 2023-11-20 at 8.00.14 AM.png>)
