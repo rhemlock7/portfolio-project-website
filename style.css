@@ -144,11 +144,35 @@ nav {
     height: 800px;
 }
 
-#project-1 { grid-area: 1 / 1 / 3 / 3; }
-#project-2 { grid-area: 3 / 1 / 4 / 2; }
-#project-3 { grid-area: 3 / 2 / 4 / 3; }
-#project-4 { grid-area: 4 / 1 / 5 / 2; }
-#project-5 { grid-area: 4 / 2 / 5 / 3; }
+#project-1 { 
+    grid-area: 1 / 1 / 3 / 3;
+    background-image: url(https://images.pexels.com/photos/17485678/pexels-photo-17485678/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-be-used-in-the-field-of-sustainability-from-biodiversity-to-climate-it-was-created-by-nidia-dias.png?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-size: cover;
+}
+#project-2 { 
+    grid-area: 3 / 1 / 4 / 2;
+    background-image: url(https://images.pexels.com/photos/17483848/pexels-photo-17483848/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-a-look-inside-how-ai-microchips-are-designed-it-was-created-by-champ-panupong-techawongthawon-as-part-of-the-v.png?auto=compress&cs=tinysrgb&w=1600
+    );
+    background-position: center;
+    background-size: cover;
+}
+#project-3 { 
+    grid-area: 3 / 2 / 4 / 3;
+    background-image: url(https://images.pexels.com/photos/8386365/pexels-photo-8386365.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-size: cover;
+}
+#project-4 { grid-area: 4 / 1 / 5 / 2; 
+    background-image: url(https://images.pexels.com/photos/17484899/pexels-photo-17484899/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-represents-the-boundaries-set-in-place-to-secure-safe-accountable-biotechnology-it-was-created-by-khyati-trehan-as-pa.png?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-size: cover;
+}
+#project-5 { grid-area: 4 / 2 / 5 / 3; 
+    background-image: url(https://images.pexels.com/photos/14953694/pexels-photo-14953694.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load);
+    background-position: center;
+    background-size: cover;
+}
 
 .project-box {
     background-color: var(--dark);
